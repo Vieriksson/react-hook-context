@@ -1,9 +1,9 @@
-# react-hook-store
+# react-hook-context
 
 ## Install
 
 ```
-$ npm install react-hook-store
+$ npm install react-hook-context
 ```
 
 ## Store creation
