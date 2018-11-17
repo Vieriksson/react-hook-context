@@ -1,0 +1,37 @@
+{
+  "name": "react-hook-context",
+  "public": true,
+  "description": "Store creator using hooks and context api",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vieriksson/hook-store"
+  },
+  "author": "Vieriksson <me@viktoreriksson.se>",
+  "bugs": {
+    "url": "https://github.com/Vieriksson/hook-store/issues",
+    "email": "me@viktoreriksson.se"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.2",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.7.0-alpha.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "semi": false,
+    "useTabs": false,
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
+  }
+}
